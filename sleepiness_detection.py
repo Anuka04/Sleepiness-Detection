@@ -108,7 +108,7 @@ while True:
 
 			if FRAME_COUNT >= CONSECUTIVE_FRAMES: 
 				count_sleep += 1
-				playsound('sound files/alarm.mp3')
+				playsound('sound files/alarm.wav')
 				cv2.putText(frame, "YOU ARE SLEEPY!", (270, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
 		else: 
 			if FRAME_COUNT >= CONSECUTIVE_FRAMES: 
@@ -120,7 +120,7 @@ while True:
 			count_yawn += 1
 			cv2.drawContours(frame, [mouth], -1, (0, 0, 255), 1) 
 			cv2.putText(frame, "YOU ARE SLEEPY!", (270, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
-			playsound('sound files/alarm.mp3')
+			playsound('sound files/alarm.wav')
 			playsound('sound files/yawn.mp3')
 	cv2.imshow("Output", frame)
 	key = cv2.waitKey(1) & 0xFF 
