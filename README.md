@@ -4,17 +4,17 @@ This is a project under the Microsoft Engage program to alert drowsy drivers in 
 
 # Requirements ✨
 
-1. Python
+1. Python/
    Allowed versions: 3.7–3.10 (This restriction in version is because II have used a library called tensorflow which is compatible only with these versions of python) \
    I have used version 3.7.9\
    This version can be installed from https://www.python.org/downloads/release/python-379/ \
    I had installed the Windows x86-64 executable installer from above website for my local machine.
 
-2. Git
+2. Git/
    Git for Windows can be installed from https://git-scm.com/download/win \
    I have used git version 2.30.0.windows.2
 
-3. Any code editor of your choice
+3. Any code editor of your choice/
    I have made use of Visual Studio Code which can be installed from https://code.visualstudio.com/download
 
 # Execute the project 💻
