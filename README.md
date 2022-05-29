@@ -61,3 +61,7 @@ python main.py
 # Output 🚘
 
 On running the project you should have the application open at loacalhost port 5000
+
+# More Information
+
+https://docs.google.com/document/d/1Nr7dPRtKao34AuiBtLV_3Yz696amDFCthSYMtKsG4qY/edit?usp=sharing
